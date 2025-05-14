@@ -27,6 +27,7 @@ void  long_thread2(void notused)
 
 int main(void)
 {
+    printf("Babchik Dmitrii Valdimirovich U914B\n");
     printf(Prog threads PID %d n, getpid());
     pthread_create(&thread_id1, NULL, long_thread1, NULL);
     pthread_create(&thread_id2, NULL, long_thread2, NULL);
