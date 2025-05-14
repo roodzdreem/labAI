@@ -9,6 +9,7 @@ void timer_handler(int sig, siginfo_t *info, void *context) {
 }
 
 int main() {
+    printf("Babchik Dmitrii Valdimirovich U914B\n");
     timer_t timer_id;
     struct sigevent sev;
     struct itimerspec its;
