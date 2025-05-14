@@ -16,6 +16,7 @@ const struct sigevent *timer_isr(void *arg, int id) {
 }
 
 int main() {
+    printf("Babchik Dmitrii Valdimirovich U914B\n");
     int intr;
     struct sigevent event;
     struct _clockperiod period;
