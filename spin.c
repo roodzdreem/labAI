@@ -25,6 +25,7 @@ void* thread_func(void* arg) {
 }
 
 int main() {
+    printf("Babchik Dmitrii Valdimirovich U914B\n");
     pthread_t thread1, thread2;
     int thread_num1 = 1, thread_num2 = 2;
     
